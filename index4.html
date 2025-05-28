@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Social Media Cards</title>
+  <style>
+    body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 40px;
+  background: #fff;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  width: 250px;
+  margin: 20px;
+  padding: 30px 20px;
+  vertical-align: top;
+  border: 2px solid black;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.card h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.card p {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+
+.icon {
+  width: 55px;
+  height: 55px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #333;
+  border: #e1306c;
+}
+
+.instagram {
+  background-color: #e1306c;
+  color: white;
+  border: #e1306c;
+}
+
+.instagram .btn {
+  background: white;
+  color: #e1306c;
+}
+
+.instagram .btn:hover {
+  background: #f8f8f8;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card twitter">
+      <img class="icon" src="Twitter.png" alt="twitter">
+      <h2>TWITTER</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ullam aliquid non eligendi, nemo est neque reiciendis error?</p>
+      <button class="btn">READ MORE</button>
+    </div>
+
+    <div class="card instagram">
+      <img class="icon" src="instragram.png" alt="instagram">
+      <h2>INSTAGRAM</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ullam aliquid non eligendi, nemo est neque reiciendis error?</p>
+      <button class="btn white">READ MORE</button>
+    </div>
+
+    <div class="card youtube">
+      <img class="icon" src="youtube.png" alt="youtube">
+      <h2>YOUTUBE</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ullam aliquid non eligendi, nemo est neque reiciendis error?</p>
+      <button class="btn">READ MORE</button>
+    </div>
+  </div>
+</body>
+</html>
